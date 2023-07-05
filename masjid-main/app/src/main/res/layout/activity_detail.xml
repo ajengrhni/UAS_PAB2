@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    tools:context=".Activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/masjid"
+        android:scaleType="centerCrop"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Masjid"
+        android:layout_toRightOf="@id/iv_foto"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat Masjid"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/iv_foto"
+        android:layout_below="@id/tv_nama"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_provinsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provinsi"
+        android:layout_toRightOf="@id/iv_foto"
+        android:layout_below="@id/tv_alamat"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_sejarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sejarah"
+        android:layout_below="@id/iv_foto"
+        android:justificationMode="inter_word"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
